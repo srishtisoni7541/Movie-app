@@ -1,5 +1,7 @@
 import axios from "../../utils/axios";
-import { loadperson, removeperson } from "../reducers/personSlice"; // Ensure correct path to personSlice
+import { loadperson, removeperson } from "../reducers/PersonSlice";
+
+
 
 // Async action to fetch person details
 export const asyncloadperson = (id) => async (dispatch) => {
